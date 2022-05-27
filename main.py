@@ -20,11 +20,11 @@ def count_words(str):
     count = dict()
     text = str.split()
 
-    for word in text:
-        if word in count:
-            count[word] += 1
+    for words in text:
+        if words in count:
+            count[words] += 1
         else:
-            count[word] = 1
+            count[words] = 1
     return count
 
 
